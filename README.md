@@ -39,8 +39,24 @@ This assignment should prove that a student is able to:
 
 - [ ] Create an html file with the name of "index" in the root of the project
 - [ ] Add HTML Boilerplate to the document
-- [ ] The Document's head should have a meta tag that defines the charset
-- [ ] The Document's head should have a responsive meta tag set
-- [ ] Set the document title to be "Sample project"
+  - [ ] confirm the head tag has a meta tag that defines the charset
+        
+  ```html 
+  <meta charset="UTF-8">
+  ```
+  - [ ] confirm the head tag has a responsive meta tag set
+  ```html 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ```
+- [ ] Set the document title in the head section to be "Sample project"
+```html
+<title>Sample project</title>
+```
 - [ ] Set the page heading to be "Sample project"
+```html 
+<h1> Sample project </h1>
+```
 - [ ] Add a paragraph of text (20 words at least). You can use random text for the paragraph content.
+```html 
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint vitae, libero quae quasi nemo dignissimos consectetur cumque. Ipsum laborum libero iure.</p>
+```
